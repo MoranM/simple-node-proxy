@@ -1,0 +1,15 @@
+{
+    "name": "mobile-api-proxy",
+    "main": "server.js",
+    "dependencies": {
+        "express": "3.x",
+        "mongoose": "~3.8.1",
+        "express-flash": "~0.0.2",
+        "express-validator": "~1.0.1",
+        "bcrypt-nodejs": "latest",
+        "less": "~1.7.0",
+        "connect-assets": "~3.0.0-beta1",
+        "request": "~2.29.0",
+        "jade": "~1.3.0"
+    }
+}

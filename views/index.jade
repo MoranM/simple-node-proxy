@@ -1,0 +1,17 @@
+//
+   Created by moranm on 3/4/14.
+
+// my-template.jade
+extends layout
+block head
+    script(src="myfile.js")
+block content
+    h1 Current connection mapping:
+
+    for user in users
+        .user-info
+            span.user-name #{user.name}
+            span.user-connection-mapping #{user.connectionMapping}
+            input(type="hidden", value='#{user._id}')
+    else
+        span No users found, add yourself in the box below.
